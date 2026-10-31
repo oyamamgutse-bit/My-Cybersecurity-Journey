@@ -2,7 +2,7 @@
 A documentation repository tracking my reconnaissance and infrastructure fingerprinting workflows on live targets using Kali Linux tools.
 
 
-**key Phases of the assessment
+**key Phases of the assessment**
 
 **Subdomain Brute-Forcing via `dnsmap`**
     *   **Purpose:** Identifying hidden infrastructure and subdomains by running a targeted brute-force attack using a custom wordlist.
