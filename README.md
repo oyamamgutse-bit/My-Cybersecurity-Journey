@@ -1,10 +1,12 @@
 # My-Cybersecurity-Journey
+
 A documentation repository tracking my reconnaissance and infrastructure fingerprinting workflows on live targets using Kali Linux tools.
 
+---
 
-**key Phases of the assessment**
+###  Key Phases of the Assessment
 
-**Subdomain Brute-Forcing via `dnsmap`**
+*   **Subdomain Brute-Forcing via `dnsmap`**
     *   **Purpose:** Identifying hidden infrastructure and subdomains by running a targeted brute-force attack using a custom wordlist.
     *   **Command Executed:** 
         ```bash
@@ -29,6 +31,3 @@ A documentation repository tracking my reconnaissance and infrastructure fingerp
             *   `x-content-type-options: nosniff` (MIME-sniffing protection)
             *   `referrer-policy: strict-origin-when-cross-origin` (Information disclosure mitigation)
 
-*   **Key Takeaways & Lessons Learned**
-    *   **High-Value Targets:** Both `api` and `app` subdomains represent high-value targets for an external penetration test since they interact directly with backend infrastructure and databases.
-    *   **Hardened Configuration:** The target shows a strong baseline security posture by correctly implementing defensive HTTP security headers on their primary Nginx web infrastructure.
